@@ -10,7 +10,7 @@ This is a research artifact for the ICSE'22 paper "GitHub Sponsors: Exploring a 
     * RQ3.2: *What is the impact of (not) getting sponsorship?*
     * RQ3.3: *Why are developers sponsoring?*
 
-This artifact is a repository including a list of studied repositories on GitHub, survey material for RQ3, the features for sponsored and non-sponsored developers, the features for sponsors, and a dataset for network diagram.
+This artifact is a repository including a list of studied repositories on GitHub, a dataset for network diagram for RQ1, the features for sponsored and non-sponsored developers for RQ2, the features for sponsors for RQ2, and survey material for RQ3.
 
 <br>
 
