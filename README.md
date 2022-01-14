@@ -59,3 +59,12 @@ The CSV file about statuses of sponsoring developers.
 * `num_own_repos` - The number of repositories developer own
 * `top_star` - The highest number of stars in the repositories that developer contributed to
 * `num_sponsoring` - The number of accounts that developer is sponsoring
+
+### survey/non-sponsored.csv
+The CSV file about responses of non-sponsored survey.
+
+### survey/sponsored.csv
+The CSV file about responses of sponsored survey.
+
+### survey/sponsoring.csv
+The CSV file about responses of sponsoring survey.
