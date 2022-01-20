@@ -91,7 +91,7 @@ The CSV file about responses of sponsoring survey.
 * `satisfaction` - We used a similar category for responses related to satisfaction, e.g., ''Just for my heart's pleasure.''
 * `need other channels` - Responses which indicated that a lack of sponsorship via GitHub Sponsors implied that they used other sponsorship platforms fall into this category, e.g., ''I have people making contribution via other channels.''
 * `need other income` - Similarly, responses mentioning the need to look for other income in the absence of GitHub sponsorship were given its own code, e.g., ''I have to work on closed source and less interesting projects.''
-* `other` - For any answer to the question that did not fit the above categories, we used the code `other'.
+* `other` - For any answer to the question that did not fit the above categories, we used the code 'other'.
 * `none` - If the question was not answered, we coded it as 'none'.
 
 ### Coding schema for ''Why are you sponsoring others?/ Why did you become a sponsor?''
@@ -105,7 +105,7 @@ The CSV file about responses of sponsoring survey.
 * `motivation` - Some respondents explicitly mentioned targeting the motivation of developers with their donations, e.g., ''Because I understand how hard it is to stay motivated.''
 * `required to get access to features/ training` - If participants mentioned sponsoring in return for specific access, we used this code, e.g., ''It was required to access training videos.''
 * `generic help/ support` - Somewhat generic statements such as ''Help valuable users in community'' received this code.
-* `other` - If the response did not fit any of these categories, we coded it as `other'.
+* `other` - If the response did not fit any of these categories, we coded it as 'other'.
 
 ### Coding schema for ''What are the effects of your sponsorship? Are the effects as you expected?''
 * `collective` - We used this code for responses which explicitly mentioned that their contributions on their own would not make a difference while the collective might, e.g., ''I do not expect to affect anyone with 1 USD a month. The collective does, but I personally don't have a say necessarily, which is good.''
