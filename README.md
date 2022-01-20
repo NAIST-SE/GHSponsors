@@ -116,3 +116,12 @@ The CSV file about responses of sponsoring survey.
 * `satisfaction` - Responses from sponsors mentioning their own satisfaction received this code, e.g., ''I honestly don’t get much out of sponsoring except personal satisfaction.''
 * `sustain project` - If the main effect was sustaining a particular project, we used this code, e.g., ''That keep the product alive and maintained.'' 
 * `none` - If respondents did not mention any effect, we coded it as 'none'.
+
+<br>
+
+## Authors
+* [Naomichi Shimada](https://github.com/naomichi-s)
+* [Tao Xiao](https://tao-xiao.github.io/)
+* [Hideaki Hata](https://hideakihata.github.io/)
+* [Christoph Treude](http://ctreude.ca/)
+* Kenichi Matsumoto
