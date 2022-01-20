@@ -37,7 +37,7 @@ This artifact is a repository including a list of studied repositories on GitHub
 ## Details
 ### metrics.csv
 The CSV file about statuses of sponsored and non-sponsored developers.
-* `is_sponsored` - Mark 1 if the developer has resistered to GitHub Sponsors
+* `is_sponsored` - Mark 1 if the developer is sponsored
 * `lang` - The language of developer
 * `num_repos` - The number of repositories developer commited
 * `num_own_repos` - The number of repositories developer own
