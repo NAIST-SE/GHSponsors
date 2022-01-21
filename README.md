@@ -28,6 +28,7 @@ This artifact is a repository including a list of studied repositories on GitHub
 - `STATUS.md` - application of artifact badges of reusable and available
 - `metrics.csv` - features of sponsored and non-sponsored developers
 - `network.csv` - dataset for network diagram
+- `paper.pdf` - the accepted paper
 - `sponsoring.csv` - features of sponsors
 
 ## Details
