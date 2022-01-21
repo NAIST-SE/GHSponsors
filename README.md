@@ -10,13 +10,13 @@ This is a research artifact for the ICSE'22 paper "**GitHub Sponsors: Exploring 
     * RQ3.2: *What is the impact of (not) getting sponsorship?*
     * RQ3.3: *Why are developers sponsoring?*
 
-This artifact is a repository including a list of studied repositories on GitHub, a dataset for the network diagram for answering RQ1, the features for sponsored and non-sponsored developers for RQ2, the features for sponsors for RQ2, and survey material and coding of responses for RQ3.
+This artifact is a repository including lists of studied repositories on GitHub, a dataset for the network diagram for answering RQ1, the features for sponsored and non-sponsored developers for RQ2, the features for sponsors for RQ2, and survey material and coding of responses for RQ3.
 
 ## Contents
-- `repositories` - datasets of studied repositories
+- `repositories` - lists of studied repositories
     * `10_or_more.csv` - 1,168,856 repositories with 10 stars or more
     * `9_or_less.csv` - 1,338,533 repositories with 9 stars or less
-- `survey` - survey materials
+- `survey` - survey materials and results
     * `not_sponsored.pdf` - survey form for non-sponsored developers
     * `sponsored.pdf` - survey form for spnsored developers
     * `sponsoring.pdf` - survey form for sponsors
@@ -27,14 +27,14 @@ This artifact is a repository including a list of studied repositories on GitHub
 - `README.md` - this file
 - `STATUS.md` - application of artifact badges of reusable and available
 - `metrics.csv` - features of sponsored and non-sponsored developers
-- `network.csv` - dataset for network diagram
+- `network.csv` - data for network diagram
 - `paper.pdf` - the accepted paper
 - `sponsoring.csv` - features of sponsors
 
 ## Details
 ### metrics.csv
 Features of sponsored and non-sponsored developers.
-* `is_sponsored` - 1 if the developer was sponsored
+* `is_sponsored` - 1 if the developer had been sponsored
 * `lang` - Developer's main language
 * `num_repos` - Number of repositories committed by the developer
 * `num_own_repos` - Number of repositories owned by the developer
@@ -45,10 +45,10 @@ Features of sponsored and non-sponsored developers.
 
 ### network.csv
 Metrics used in the network graph.
-* `sponsor` - The developer who is sponsoring
-* `to` - The developer who is sponsored
-* `spo_language` - The main language of the developer who is sponsoring
-* `to_language` - The main language of the developer who is sponsored
+* `sponsor` - The developer who was sponsoring
+* `to` - The developer who was sponsored by the sponsor
+* `spo_language` - The main language of the developer who was sponsoring
+* `to_language` - The main language of the developer who was sponsored
 
 ### sponsoring.csv
 Features of sponsors.
@@ -57,17 +57,8 @@ Features of sponsors.
 * `top_star` - Number of stars for the repository with the highest number of stars contributed by the sponsor
 * `num_sponsoring` - Number of developers sponsored by the sponsor
 
-### survey/non-sponsored.csv
-The CSV file about responses of non-sponsored survey.
-
-### survey/sponsored.csv
-The CSV file about responses of sponsored survey.
-
-### survey/sponsoring.csv
-The CSV file about responses of sponsoring survey.
-
-## Coding schema
-### ''Why are you looking for sponsors?''
+## Coding schema for the survey
+### Why are you looking for sponsors?
 * `funding a particular feature/ product` - We used this code if the respondent mentioned something in particular (other than the OSS project itself) that they were planning to use the donations for, e.g., ''Fund hosting costs for hosted projects.''   
 * `gauge interest/satisfaction` - Some respondents indicated using sponsorship as a way to receive feedback from the community, in particular to assess the community's interest in the project, e.g., ''To measure the degree of satisfaction with my OSS works.'' 
 * `motivation` - We used this code if respondents were aware that receiving motivations would increase their motivation, e.g., ''It highly motivates me if I get money as donations for my work.''
@@ -75,14 +66,14 @@ The CSV file about responses of sponsoring survey.
 * `financial support in general terms` - In cases where respondents gave a somewhat generic answer related to making money, we used this code, e.g., ''to fund my open source work.''
 * `none` - For respondents who did not mention a reason in response to the question, we used the code 'none'.
 
-### ''Are you doing anything special to attract sponsors?''
+### Are you doing anything special to attract sponsors?
 * `perks for sponsors` - For responses which mentioned a specific perk that was only available to sponsors of their work, we used this code, e.g., ''I offer short consulting sessions (just a 30-60 minute video call) for higher tier sponsors.''
 * `social media` - We used this code if respondents mentioned a specific social media site or social media in general, e.g., ''Twitter - tweet about my work.''
 * `written content on GitHub` - Responses which mentioned updating documentation to make their work more attractive to sponsors, we used this code, e.g., ''I've written out my goals more publicly.''
 * `none` - If respondents did not mention any activities, we coded the response as 'none'.
 
 
-### ''How has having sponsors affected you and the projects you are working on?/ How does the lack of sponsoring affect you and the projects you are working on?''
+### How has having sponsors affected you and the projects you are working on?/ How does the lack of sponsoring affect you and the projects you are working on?
 * `better project quality` - We used this code for responses which mentioned a positive impact of sponsoring towards specific quality attributes, e.g., ''It’s made me feel a lot more motivated towards adding more open source code, and paying a higher level of attention to detail.''
 * `limited effort` - This code was used for responses which mentioned a negative impact of the lack of sponsorship on the effort they were willing or able to spend, e.g., ''the projects receive less attention due to the need to do paid work.''
 * `motivation` - Responses mentioning the impact of (lack of) sponsorship on motivation received this code, e.g., ''Some pressure to finish the project.''
@@ -92,7 +83,7 @@ The CSV file about responses of sponsoring survey.
 * `other` - For any answer to the question that did not fit the above categories, we used the code 'other'.
 * `none` - If the question was not answered, we coded it as 'none'.
 
-### ''Why are you sponsoring others?/ Why did you become a sponsor?''
+### Why are you sponsoring others?/ Why did you become a sponsor?
 * `dependencies/ benefited otherwise` - We used this code for responses which explicitly mentioned dependencies or other benefits, e.g., ''My project uses their projects.''
 * `excellent work` - If respondents indicated that they sponsored because of excellent projects, we used this code, e.g., ''I want to contribute to great projects.''
 * `form of involvement` - Related to the previous point, if respondents indicated that they see sponsoring as a form of involvement, we used this code, e.g., ''I had no more time to help with coding, so I decided to sponsor.''
@@ -105,7 +96,7 @@ The CSV file about responses of sponsoring survey.
 * `generic help/ support` - Somewhat generic statements such as ''Help valuable users in community'' received this code.
 * `other` - If the response did not fit any of these categories, we coded it as 'other'.
 
-### ''What are the effects of your sponsorship? Are the effects as you expected?''
+### What are the effects of your sponsorship? Are the effects as you expected?
 * `collective` - We used this code for responses which explicitly mentioned that their contributions on their own would not make a difference while the collective might, e.g., ''I do not expect to affect anyone with 1 USD a month. The collective does, but I personally don't have a say necessarily, which is good.''
 * `fund particular activities` - If respondents expected particular activities to take place in return for their sponsoring, we used this code, e.g., ''Maybe better handling of my files Issues. Also to keep a project alive.''
 * `grateful/ motivated developers` - Responses related to the motivation of the developers receiving sponsorship received this code, e.g., ''I'm not actually sure how to measure it. I just hope that provides enough signal to them to feel motivated.''
