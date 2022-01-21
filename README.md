@@ -1,4 +1,6 @@
 # Research Artifact - GitHub Sponsors: Exploring a New Way to Contribute to Open Source
+[![DOI](https://zenodo.org/badge/447130568.svg)](https://zenodo.org/badge/latestdoi/447130568)
+
 This is a research artifact for the ICSE'22 paper "**GitHub Sponsors: Exploring a New Way to Contribute to Open Source**". The following three research questions were constructed to guide the study.
 
 * RQ1: *Who participates in GitHub Sponsors?*
