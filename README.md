@@ -19,9 +19,9 @@ This artifact is a repository including lists of studied repositories on GitHub,
     * `10_or_more.csv` - 1,168,856 repositories with 10 stars or more
     * `9_or_less.csv` - 1,338,533 repositories with 9 stars or less
 - `survey` - survey materials and results
-    * `not_sponsored.pdf` - survey form for non-sponsored developers
-    * `sponsored.pdf` - survey form for spnsored developers
-    * `sponsoring.pdf` - survey form for sponsors
+    * `not_sponsored.pdf` - [survey form for non-sponsored developers](https://forms.gle/uHbjXzBv2WWwvaaW7)
+    * `sponsored.pdf` - [survey form for spnsored developers](https://forms.gle/TkXwnyNc6vtxcwLX6)
+    * `sponsoring.pdf` - [survey form for sponsors](https://forms.gle/4kkyTv7KaF3HCoRaA)
     * `not_sponsored.csv` - survey result of non-sponsored developers
     * `sponsored.csv` - survey result of spnsored developers
     * `sponsoring.csv` - survey result of sponsors
